@@ -1,0 +1,42 @@
+
+.body{
+    
+}
+.navbar{
+    
+    z-index: initial;
+}
+.nav-item :hover{
+    background-color: rgb(39, 28, 46);
+    border: 1px solid grey;
+    border-radius: 10px;
+color: aqua;
+}
+
+.responsive_card{
+    position:absolute;
+border-radius: 5px;
+    display: flex;flex-wrap: wrap;
+justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.card{
+    background-color: black;
+    color: azure;
+    border: 5px solid green;
+    border-radius: 2px;
+}
+.card:hover{
+    cursor: pointer;
+    color: rgb(228, 235, 235);
+    background-size: contain;
+}
+.btn{
+    background-color: rgb(29, 5, 83);
+    border-radius: 5px;
+    color: beige;
+}
+.btn:hover{
+    background-color: green;
+}
